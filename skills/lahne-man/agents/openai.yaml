@@ -1,0 +1,4 @@
+interface:
+  display_name: "/lahne-man"
+  short_description: "ویرایش طبیعی متن فارسی بدون صاف کردن صدای نویسنده."
+  default_prompt: "از $lahne-man استفاده کن؛ متن را طبیعی‌تر کن و لحن، واژگان و ریتم شخصی نویسنده را حفظ کن."
