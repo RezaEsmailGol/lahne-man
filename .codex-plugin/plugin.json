@@ -1,0 +1,44 @@
+{
+  "name": "lahne-man",
+  "version": "1.0.0",
+  "description": "ویرایش متن فارسی با حذف کلیشه‌های ماشینی و حفظ لحن واقعی نویسنده.",
+  "author": {
+    "name": "Reza Esmaeil Gol",
+    "url": "https://rezagol.ir"
+  },
+  "homepage": "https://github.com/RezaEsmailGol/lahne-man",
+  "repository": "https://github.com/RezaEsmailGol/lahne-man",
+  "license": "MIT",
+  "keywords": [
+    "فارسی",
+    "ویرایش",
+    "لحن",
+    "نویسندگی",
+    "متن طبیعی",
+    "هوش مصنوعی"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "لحن من",
+    "shortDescription": "متن طبیعی‌تر، بدون از بین رفتن صدای نویسنده",
+    "longDescription": "«لحن من» متن فارسی را با کمترین تغییر مؤثر ویرایش می‌کند. کلیشه‌های رایج متن‌های ماشینی، مقدمه‌های اضافه، بزرگ‌نمایی، جمع‌بندی‌های تکراری، نسبت دادن مبهم، CTAهای کلیشه‌ای و ریتم رباتیک را پیدا و اصلاح می‌کند، اما لحن محاوره‌ای، رسمی، فنی، شخصی یا تبلیغاتی نویسنده را تا جای ممکن حفظ می‌کند. این ابزار دو حالت دارد: ویرایش متن و بررسی الگوها بدون بازنویسی. «لحن من» ابزار تشخیص قطعی متن نوشته‌شده با هوش مصنوعی نیست.",
+    "developerName": "رضا اسماعیل گل",
+    "category": "Productivity",
+    "capabilities": [
+      "ویرایش فارسی",
+      "حفظ لحن نویسنده",
+      "تشخیص کلیشه‌های ماشینی"
+    ],
+    "websiteURL": "https://rezagol.ir",
+    "privacyPolicyURL": "https://github.com/RezaEsmailGol/lahne-man/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/RezaEsmailGol/lahne-man/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "این متن را طبیعی‌تر کن و لحن من را حفظ کن: (متن)",
+      "فقط کلیشه‌های ماشینی این متن را پیدا کن و بازنویسی نکن: (متن)",
+      "این متن فارسی را با کمترین تغییر ویرایش کن: (متن)"
+    ],
+    "brandColor": "#2F6F5E",
+    "composerIcon": "./assets/lahne-man.png",
+    "logo": "./assets/lahne-man.png"
+  }
+}
