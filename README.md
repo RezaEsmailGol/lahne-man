@@ -21,25 +21,53 @@
 - محافظت از کد، URL، نام متغیر، نام محصول، نسخه نرم‌افزار و دستورهای ترمینال.
 - اصلاح خطاهای واضح نیم‌فاصله و حروف فارسی، بدون رسمی‌سازی اجباری متن.
 
-## نصب سریع
+## Skill چیست؟
 
-ساده‌ترین روش این است که این دستور را به ChatGPT، Codex، Claude Code یا عامل کدنویسی سازگار با Skills بدهید:
+Skill یک مجموعه دستور و راهنمای قابل‌استفاده مجدد برای هوش مصنوعی است. «لحن من» برنامه مستقل یا اپ موبایل نیست؛ وقتی در یک محیط سازگار نصب یا اضافه شود، مدل می‌فهمد برای ویرایش متن باید چه قواعدی را رعایت کند.
 
-```text
-Install the /lahne-man skill globally from https://github.com/RezaEsmailGol/lahne-man
-```
+## روی گوشی نصب می‌شود یا سیستم؟
 
-یا با ابزار `skills`:
+خود Skill فایل اجرایی جداگانه‌ای ندارد. روش نصب به محیطی که از آن استفاده می‌کنید بستگی دارد:
+
+- برای نصب محلی با ابزارهای توسعه مثل Codex یا Claude Code معمولاً به کامپیوتر و ترمینال نیاز دارید.
+- در سرویس‌هایی که امکان افزودن یا آپلود Custom Skill دارند، می‌توانید Skill را از داخل همان سرویس اضافه کنید.
+- بعد از انتشار در Plugin Directory، نصب برای ChatGPT/Codex از مسیر رسمی Directory انجام می‌شود.
+
+## نصب
+
+### روش عمومی با ابزار `skills`
+
+اگر محیط شما Agent Skills را پشتیبانی می‌کند و Node.js در دسترس است:
 
 ```bash
 npx skills add RezaEsmailGol/lahne-man --skill lahne-man --global --yes
 ```
 
-برای نصب محلی در یک پروژه، گزینه `--global` را حذف کنید:
+برای نصب فقط در پروژه جاری:
 
 ```bash
 npx skills add RezaEsmailGol/lahne-man --skill lahne-man --yes
 ```
+
+### Claude Code
+
+در Claude Code بهتر است دستور نصب را در **ترمینال** اجرا کنید، نه اینکه جمله «Install the skill...» را صرفاً داخل چت بفرستید:
+
+```bash
+npx skills add RezaEsmailGol/lahne-man --skill lahne-man --global --yes
+```
+
+روش دستی هم ممکن است: پوشه Skill را در مسیر Skillهای شخصی یا پروژه Claude Code قرار دهید.
+
+### claude.ai
+
+Custom Skills در claude.ai از بخش تنظیمات/Features قابل افزودن هستند. در این حالت فایل Skill را مطابق رابط خود Claude آپلود کنید.
+
+### ChatGPT و Codex
+
+این مخزن برای فرمت Plugin/Skill جدید OpenAI بسته‌بندی شده است. نسخه عمومی پس از تأیید از Plugin Directory قابل نصب خواهد بود. برای توسعه و تست محلی، از روش‌های Plugin/Marketplace مستندشده در Codex یا ابزار `skills` استفاده کنید.
+
+> نکته: جمله‌ی `Install the /lahne-man skill globally from ...` ممکن است در بعضی Agentها کار کند، اما روش نصب استاندارد و تضمین‌شده برای همه سرویس‌ها نیست.
 
 ## استفاده سریع
 
