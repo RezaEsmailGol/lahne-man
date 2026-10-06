@@ -1,0 +1,21 @@
+{
+  "name": "lahne-man",
+  "description": "Persian writing and editing skills by Reza Esmail Gol.",
+  "owner": {
+    "name": "Reza Esmail Gol"
+  },
+  "plugins": [
+    {
+      "name": "lahne-man",
+      "source": {
+        "source": "github",
+        "repo": "RezaEsmailGol/lahne-man"
+      },
+      "description": "ویرایش طبیعی متن فارسی با حفظ لحن نویسنده و کاهش کلیشه‌های ماشینی.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Reza Esmail Gol"
+      }
+    }
+  ]
+}

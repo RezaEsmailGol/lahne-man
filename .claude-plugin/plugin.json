@@ -1,0 +1,19 @@
+{
+  "name": "lahne-man",
+  "displayName": "لحن من",
+  "description": "ویرایش طبیعی متن فارسی با حفظ لحن نویسنده و کاهش کلیشه‌های ماشینی.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Reza Esmail Gol",
+    "url": "https://rezagol.ir"
+  },
+  "homepage": "https://github.com/RezaEsmailGol/lahne-man",
+  "repository": "https://github.com/RezaEsmailGol/lahne-man",
+  "license": "MIT",
+  "keywords": [
+    "persian",
+    "writing",
+    "editing",
+    "style"
+  ]
+}
