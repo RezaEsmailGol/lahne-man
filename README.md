@@ -51,13 +51,20 @@ npx skills add RezaEsmailGol/lahne-man --skill lahne-man --yes
 
 ### Claude Code
 
-در Claude Code بهتر است دستور نصب را در **ترمینال** اجرا کنید، نه اینکه جمله «Install the skill...» را صرفاً داخل چت بفرستید:
+روش پیشنهادی با Plugin Marketplace:
+
+```text
+/plugin marketplace add RezaEsmailGol/lahne-man
+/plugin install lahne-man@lahne-man
+```
+
+یا از ترمینال با ابزار Skills:
 
 ```bash
 npx skills add RezaEsmailGol/lahne-man --skill lahne-man --global --yes
 ```
 
-روش دستی هم ممکن است: پوشه Skill را در مسیر Skillهای شخصی یا پروژه Claude Code قرار دهید.
+صرفاً فرستادن جمله «Install the skill...» داخل چت روش تضمین‌شده نصب نیست؛ اگر نصب از چت خطا داد، یکی از دو روش بالا را استفاده کنید.
 
 ### claude.ai
 
